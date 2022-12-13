@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
     setAnimal((prevAnimals) => [
       ...prevAnimals,
-      { id: nanoid(), type: newAnimal, journeysNo: 0, isHere: false },
+      { id: nanoid(), type: newAnimal, journeysNo: 0, isHere: true },
     ]);
     setNewAnimal("");
   };
